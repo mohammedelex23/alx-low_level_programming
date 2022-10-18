@@ -3,8 +3,7 @@
  * @n: a number
  * Description: converts negative to
  * positive
-
-* Return: positive number
+ * Return: positive number
  */
 int _abs(int n)
 {
