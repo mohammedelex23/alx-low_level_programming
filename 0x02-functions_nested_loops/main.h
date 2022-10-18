@@ -1,5 +1,8 @@
 #include <stdio.h>
+#ifndef _putchar.c
 #include "_putchar.c"
+#endif
+
 /**
  * printSmth - the function
  * Description: prints _putchar
