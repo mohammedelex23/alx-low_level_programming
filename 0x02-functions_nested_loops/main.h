@@ -5,7 +5,7 @@
  */
 void printSmth(void)
 {
-	puts("_putchar");
+	printf("_putchar\n");
 }
 
 void print_alphabet(void);
