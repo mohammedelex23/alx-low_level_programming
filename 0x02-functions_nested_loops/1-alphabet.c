@@ -1,3 +1,6 @@
+#ifndef PUTCHAR_H
+#include "_putchar.c"
+#endif
 /**
  * print_alphabet - the function
  * Description: prints English alphabet
