@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_to_98 - the function
  * @n: a number
