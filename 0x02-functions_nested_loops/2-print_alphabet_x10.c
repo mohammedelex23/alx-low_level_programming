@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_alphabet_x10 - the function
  * Description: prints English alphabet
@@ -14,10 +14,10 @@ void print_alphabet_x10(void)
 
 		while (letter <= 122)
 		{
-			putchar(letter);
+			_putchar(letter);
 			letter++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		i--;
 	}
 }
