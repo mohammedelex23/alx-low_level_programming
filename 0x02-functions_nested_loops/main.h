@@ -1,13 +1,5 @@
-#include <stdio.h>
+
 #include "_putchar.c"
-/**
- * printSmth - the function
- * Description: prints _putchar
- */
-void printSmth(void)
-{
-	printf("_putchar\n");
-}
 
 void print_alphabet(void);
 void print_alphabet_x10(void);
