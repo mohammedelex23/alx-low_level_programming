@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- * printSmth - the function
  * Description: prints _putchar
  */
 void printSmth(void)
@@ -10,7 +9,6 @@ void printSmth(void)
 }
 
 /**
- * print_alphabet - the function
  * Description: prints English alphabet
  */
 void print_alphabet(void)
