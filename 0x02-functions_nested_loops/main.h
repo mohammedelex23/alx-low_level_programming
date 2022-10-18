@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "_putchar.c"
 /**
  * printSmth - the function
  * Description: prints _putchar
