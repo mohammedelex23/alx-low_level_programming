@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * _islower - the function
  * Description: return 1 for lower letter

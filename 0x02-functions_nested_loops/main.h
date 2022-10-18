@@ -1,10 +1,4 @@
-#ifndef _STDIO
 #include <stdio.h>
-#endif
-#ifndef _PUTCHAR
-#include "_putchar.c"
-#endif
-
 /**
  * printSmth - the function
  * Description: prints _putchar

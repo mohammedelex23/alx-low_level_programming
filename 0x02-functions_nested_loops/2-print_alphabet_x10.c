@@ -1,4 +1,3 @@
-#include <stdio.h>
 /**
  * print_alphabet_x10 - the function
  * Description: prints English alphabet
