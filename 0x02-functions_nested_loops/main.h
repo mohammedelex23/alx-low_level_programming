@@ -1,5 +1,5 @@
 #include <stdio.h>
-#ifndef _putchar.c
+#ifndef _PUTCHAR
 #include "_putchar.c"
 #endif
 
