@@ -1,6 +1,3 @@
-#ifndef PUTCHAR_H
-#define PUTCHAR_H
-#endif
 #include <stdio.h>
 /**
  * printSmth - the function
