@@ -1,6 +1,8 @@
+#ifndef _STDIO
 #include <stdio.h>
+#endif
 #ifndef _PUTCHAR
-#include "_putchar.h"
+#include "_putchar.c"
 #endif
 
 /**
