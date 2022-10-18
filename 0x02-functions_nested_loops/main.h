@@ -1,3 +1,4 @@
+#include "_putchar.c"
 /**
  * printSmth - the function
  * Description: prints _putchar
