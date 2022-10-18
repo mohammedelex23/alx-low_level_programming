@@ -1,4 +1,3 @@
-#include "_putchar.c"
 /**
  * print_alphabet - the function
  * Description: prints English alphabet
@@ -9,8 +8,8 @@ void print_alphabet(void)
 
 	while (letter <= 122)
 	{
-		_putchar(letter);
+		puts(letter);
 		letter++;
 	}
-	_putchar('\n');
+	puts('\n');
 }
