@@ -8,8 +8,8 @@ void print_alphabet(void)
 
 	while (letter <= 122)
 	{
-		putchar(letter);
+		_putchar(letter);
 		letter++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
