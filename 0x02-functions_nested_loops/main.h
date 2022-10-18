@@ -8,3 +8,5 @@ void printSmth(void)
 {
 	puts("_putchar");
 }
+
+void print_alphabet(void);
