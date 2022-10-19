@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 /**
  * print_last_digit - the function
  * @n: a number
@@ -10,7 +9,7 @@
  */
 int print_last_digit(int n)
 {
-	n = abs(n % 10);
+	n = _abs(n % 10);
 
 	printf("%d", n);
 
