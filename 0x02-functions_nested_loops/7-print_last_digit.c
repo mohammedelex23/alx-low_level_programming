@@ -12,7 +12,7 @@ int print_last_digit(int n)
 {
 	n = abs(n % 10);
 
-	printf("\n%d", n);
+	printf("%d\n", n);
 
 	return (n);
 }
