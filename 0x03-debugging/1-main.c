@@ -6,9 +6,10 @@
 */
 
 int main(void)
-{
-        int i;
-
+{       
+        /**
+        *int i;
+        */
         printf("Infinite loop incoming :(\n");
         /**
         * i = 0;
