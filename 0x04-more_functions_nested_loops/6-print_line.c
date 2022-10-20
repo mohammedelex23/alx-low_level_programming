@@ -12,7 +12,7 @@ void print_line(int n)
 {
 	if (n < 1)
 	{
-		goto end;
+		_putchar('\n);
 		return;
 	}
 
@@ -23,8 +23,5 @@ void print_line(int n)
 		_putchar(95);
 		i++;
 	}
-
-	end:
-		_putchar('\n');
-
+	_putchar('\n');
 }
