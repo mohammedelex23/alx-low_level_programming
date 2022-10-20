@@ -1,3 +1,13 @@
+#include "main.h"
+
+/**
+ * print_line - the function
+ * @n: a number
+ * Description: prints a line of
+ * length n
+ * Return: nothing
+ */
+
 void print_line(int n)
 {
         if (n < 1)
