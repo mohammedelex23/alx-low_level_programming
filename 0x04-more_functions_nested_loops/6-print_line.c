@@ -24,7 +24,7 @@ void print_line(int n)
 		i++;
 	}
 
-end:
-	_putchar('\n');
+	end:
+		_putchar('\n');
 
 }
