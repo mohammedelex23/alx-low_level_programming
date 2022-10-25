@@ -8,19 +8,16 @@
 
 void print_rev(char *s)
 {
-	char *e = s;
+	int l;
+
+	for (l = 0; s[l] != '\0'; l++)
+		;
+
 	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = l - 1; i >= 0; i--)
 	{
-		*e++;
-	}
-
-	*e--;
-
-	for (i = 0; e >= s; *e--)
-	{
-		printf("%c", *e);
+		printf("%c", s[i]);
 	}
 
 }
