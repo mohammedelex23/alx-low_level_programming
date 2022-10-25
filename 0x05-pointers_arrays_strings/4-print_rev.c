@@ -9,11 +9,11 @@
 void print_rev(char *s)
 {
 	int l;
+	int i;
 
 	for (l = 0; s[l] != '\0'; l++)
 		;
 
-	int i;
 
 	for (i = l - 1; i >= 0; i--)
 	{
