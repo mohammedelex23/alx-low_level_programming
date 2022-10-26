@@ -1,5 +1,5 @@
-#include "main.h"
 #include <string.h>
+#include "main.h"
 
 /**
  * _strncat - the function
@@ -22,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 
-	while (k < n && k < strlen(dest))
+	while (k < n && k < (int) strlen(dest))
 	{
 		dest[i] = src[j];
 		i++;
