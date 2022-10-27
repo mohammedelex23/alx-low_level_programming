@@ -12,6 +12,16 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
+
+	if (dest == NULL)
+	{
+		return (NULL);
+	}
+	if (src == NULL)
+	{
+		return (dest);
+	}
+
 	int i = 0;
 	int src_length = (int) strlen(src);
 	int dest_length = (int) strlen(dest);
