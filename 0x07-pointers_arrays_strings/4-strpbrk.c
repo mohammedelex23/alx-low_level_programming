@@ -16,10 +16,8 @@ char *_strpbrk(char *s, char *accept)
 		char *temp = accept;
 
 		while (*temp++)
-		{
 			if (*s == *temp)
 				return ((char *) s);
-		}
 	}
 	return (NULL);
 }
