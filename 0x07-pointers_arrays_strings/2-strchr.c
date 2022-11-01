@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _strchr - the function
@@ -10,20 +10,12 @@
 
 char *_strchr(char *s, char c)
 {
-	char *index;
-	int found = 0;
-
-	while (*s)
+	while (*s++)
 	{
 		if (*s == c)
 		{
-			index = s;
-			found = 1;
-			break;
+			return ((char *) s);
 		}
-		s++;
 	}
-	if (found)
-		return (index);
 	return (NULL);
 }
