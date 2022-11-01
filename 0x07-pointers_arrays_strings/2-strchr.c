@@ -10,17 +10,20 @@
 
 char *_strchr(char *s, char c)
 {
-	char *index = NULL;
+	char *index;
+	int found = 0;
 
 	while (*s)
 	{
 		if (*s == c)
 		{
 			index = s;
+			found = 1;
 			break;
 		}
 		s++;
 	}
-
-	return (index);
+	if (found)
+		return (index);
+	return (NULL);
 }
