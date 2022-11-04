@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		if (!((0 + argv[i][0]) >= 48 && 0 + (argv[i][0] <= 57)))
+		if (strcmp(argv[i], "0") && atoi(argv[i]) == 0)
 		{
 			puts("Error");
 			return (1);
