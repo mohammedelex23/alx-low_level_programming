@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
+#include <string.h>
 int change(int cents);
 
 /**
@@ -15,12 +16,12 @@ int main(int argc, char *argv[])
 
 	int number = atoi(argv[1]);
 
-	if (argc != 2)
+	if (argc != 2 || (strcmp(argv[1], "0") && number == 0))
 	{
 		puts("Error");
 		return (1);
 	}
-	if (number <= 0)
+	if (number < 0)
 	{
 		printf("%d\n", 0);
 		return (1);
