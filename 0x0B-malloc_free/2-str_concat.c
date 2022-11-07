@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 	result = malloc(sizeof(char) * (s1_size + s2_size + 1));
 
 	if (result == NULL)
-		return NULL;
+		return (NULL);
 
 	while ((s1 != NULL && s1[i] != '\0') || (s2 != NULL && s2[j] != '\0'))
 	{
