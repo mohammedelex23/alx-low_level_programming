@@ -1,4 +1,20 @@
 #include "main.h"
+
+/**
+ * _strlen - calculates string length
+ * @str: a string pointer
+ * Return: the length of the string: @str
+ */
+int _strlen(char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	return (i);
+}
+
+
 /**
  * string_nconcat - concatinate two strings
  * @s1: first string
@@ -16,12 +32,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 		s1_length = 0;
 	else
-		s1_length = strlen(s1);
+		s1_length = _strlen(s1);
 
 	if (s2 == NULL)
 		n = 0;
-	if (s2 != NULL && n > (unsigned int) strlen(s2))
-		n = strlen(s2);
+	if (s2 != NULL && n > (unsigned int) _strlen(s2))
+		n = _strlen(s2);
 
 	concatinated_str = malloc(sizeof(char) * (s1_length + n + 1));
 
