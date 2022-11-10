@@ -19,7 +19,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (result == NULL)
 		return (NULL);
 
-	for (i = 0; i < (int) nmemb; i++)
+	for (i = 0; i < (int) (nmemb * size); i++)
 		result[i] = 0;
 
 	return (result);
