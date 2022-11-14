@@ -11,9 +11,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t normal;
 	dog_t *dog_p = &normal;
 
-	normal.name = name;
+	if (name == NULL)
+		normal.name = "(nil)";
+	else
+		normal.name = name;
 	normal.age = age;
-	normal.owner = owner;
-
+	if (owner == NULL)
+		normal.owner = "(nil)";
+	else
+		normal.owner = owner;
 	return (dog_p);
 }
