@@ -12,6 +12,5 @@ struct dog
 	const char *name;
 	float age;
 	const char *owner;
-}
-
-	#endif
+};
+#endif
