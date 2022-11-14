@@ -1,4 +1,3 @@
-#include<math.h>
 #include "dog.h"
 /**
  * print_dog - print dog struct
