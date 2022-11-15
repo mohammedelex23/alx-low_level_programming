@@ -1,10 +1,7 @@
-#ifndef MAIN
-#define MAIN
-    #include <stdio.h>
-
-    #ifndef PRINT_FILE
+#ifndef MAIN_h
+#define MAIN_h
+#include <stdio.h>    
 #define PRINT_FILE() puts(__FILE__)
-    #endif
 #endif
 
 
