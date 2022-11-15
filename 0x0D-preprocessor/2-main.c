@@ -7,7 +7,6 @@
     #endif
 #endif
 
-
 /**
  * main - prints the file name of this
  * program
@@ -15,6 +14,6 @@
  */
 int main(void)
 {
-        PRINT_FILE();
-        return (0);
+	PRINT_FILE();
+	return (0);
 }
