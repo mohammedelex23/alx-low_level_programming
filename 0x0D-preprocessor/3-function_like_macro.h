@@ -1,7 +1,4 @@
-#ifndef STDLIB_H
-#define STDLIB_H
-    #include <stdlib.h>
-    #ifndef ABS
+#ifndef ABS(x)
 #define ABS(x) abs(x)
-    #endif
+    #include <stdlib.h>
 #endif
