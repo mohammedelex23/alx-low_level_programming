@@ -1,4 +1,13 @@
-#include <stdio.h>
+#ifndef MAIN
+#define MAIN
+    #include <stdio.h>
+
+    #ifndef PRINT_FILE
+#define PRINT_FILE() puts(__FILE__)
+    #endif
+#endif
+
+
 /**
  * main - prints the file name of this
  * program
@@ -6,6 +15,6 @@
  */
 int main(void)
 {
-	printf(__FILE__);
-	return (0);
+        PRINT_FILE();
+        return (0);
 }
